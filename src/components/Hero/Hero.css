@@ -1,14 +1,14 @@
 .hero {
     height: 100vh;
-    background-color: linear gradient(180deg, #fde1ff, #e1ffea22, 60%);
+    background-color: linear-gradient(180deg, #fde1ff, #e1ffea22 60%);
     display: flex;
 }
-.hero-hand-icon img {
-    width: 100px;
+ .hero-hand-icon img {
+    width: 105px;
 }
 
 .hero-left {
-    flex: 1;
+    flex: 0.7;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -19,7 +19,7 @@
 
 .hero-left h2 {
     color: #090909;
-    font-size: 27px;
+    font-size: 25px;
     font-weight: 600;
 
 }
@@ -28,13 +28,13 @@
     color: #171717;
     font-size: 50px;
     font-weight: 700;
-}
+} 
 
 .hero-hand-icon {
     display: flex;
     align-items: center;
     gap: 20px;
-}
+}  
 
 
 .hero-latest-btn {
@@ -51,4 +51,10 @@
     font-size: 22px;
     font-weight: 500;
 
+} 
+.hero-right{
+    flex: 0.5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
