@@ -3,6 +3,7 @@ import './App.css';
 import Navbar from './components/Navbar/Navbar1';
 import Shop from './pages/shop';
 import Shopcatagory from './pages/shopcatagory';
+import Footer from './components/Footer/Footer'
 import { BrowserRouter,Routes,Route } from 'react-router-dom';
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
        <Route path='/' element={<cart/>} />
        <Route path='/login' element={<loginsignup/>} />
         </Routes>
+        <Footer />
   
 
      </BrowserRouter>
