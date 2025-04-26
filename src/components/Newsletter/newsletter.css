@@ -1,0 +1,59 @@
+.newslatter{
+    width: 65%;
+    height: 40vh;   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0px 140px;
+    margin-bottom: 150px;
+    background: linear-gradient(180deg, #fde1ff 0%, #e1ffea22 60%);
+    gap: 30px;
+
+}
+.newslatter h1{
+    font-size: 55px;
+    font-weight: 600;
+    color: #454545;
+    /* text-align: center; */
+}
+.newslatter p{
+    font-size: 20px;
+    /* font-weight: 400;     */
+    color: #454545;
+    /* text-align: center; */
+}
+.newslatter div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    width: 730px;
+    /* gap: 20px; */
+    border-radius: 80px;
+    border: 1px solid #e3e3e3;
+}
+.newslatter input{
+    width: 500px;
+    margin-left: 30px;
+    color: #616161;
+    font-family: poppins;
+    /* height: 60px; */
+    /* padding-left: 30px; */
+    font-size: 16px;
+    /* border-radius: 80px; */
+    border: none;
+    outline: none;
+}
+.newslatter div button{
+    width: 210px;
+    height: 70px;
+    background: black;
+    color: white;
+    font-size: 16px;
+    /* font-weight: 600; */
+    border-radius: 80px;
+    /* border: none; */
+    cursor: pointer;
+}
